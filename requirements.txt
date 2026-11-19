@@ -1,0 +1,2 @@
+# Python dependency for the serial-to-CSV logger
+pyserial>=3.5
