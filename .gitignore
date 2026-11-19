@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# Local CAN logs (do not commit sensitive or private captures)
+can_monitor_log.csv
+*.log
+
+# Arduino build output
+build/
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
